@@ -69,7 +69,7 @@ async def shorten(message: types.Message):
 
         async with aiohttp.ClientSession() as session:
             async with session.post(
-                os.environ['GET_URL'],
+                os.environ['POST_URL'],
                 json=result,
             ) as response:
                 if response.status == 400:
