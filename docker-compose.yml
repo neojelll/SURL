@@ -68,8 +68,6 @@ services:
         condition: service_healthy
       postgres:
         condition: service_healthy
-      kafka:
-        condition: service_healthy
 
   expiration-manager:
     image: ghcr.io/neojelll/url-shortener-expiration-manager:latest
@@ -88,13 +86,11 @@ services:
         condition: service_healthy
       postgres:
         condition: service_healthy
-      kafka:
-        condition: service_healthy
 
   telegram_bot:
     image: ghcr.io/neojelll/url-shortener-telegram-bot:latest
     env_file:
-      - ./telegram_bot/.env
+      - ./.env
     depends_on:
       - api
       - url-shortener
