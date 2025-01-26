@@ -1,16 +1,23 @@
-# SURL
-
 <p align="center">
   <a href="https://github.com/neojelll/surl" target="_blank"><img src="readme/surl-logo.png" width="250" alt="surl logo" /></a>
 </p>
 
-![GitHub Release](https://img.shields.io/github/v/release/neojelll/url-shortener?include_prereleases&display_name=release&style=flat-square)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/neojelll/url-shortener/.github%2Fworkflows%2Fpublish.yml?style=flat-square)
-![Static Badge](https://img.shields.io/badge/coverage-unknow-white?style=flat-square)
-![Static Badge](https://img.shields.io/badge/python-3.12-blue?style=flat-square)
-![GitHub Repo stars](https://img.shields.io/github/stars/neojelll/url-shortener)
+<p align="center">
+	<img alt="GitHub Release" src="https://img.shields.io/github/v/release/neojelll/surl?include_prereleases&display_name=release&style=flat">
+  <img alt="GitHub Actions Workflow Status" src="https://img.shields.io/github/actions/workflow/status/neojelll/surl/.github%2Fworkflows%2Fpublish.yml?style=flat">
+	<img alt="Static Badge" src="https://img.shields.io/badge/Python-3.12-blue?style=flat">
+	<img alt="Coveralls" src="https://img.shields.io/coverallsCoverage/github/neojelll/surl?style=flat">
+	<img alt="GitHub License" src="https://img.shields.io/github/license/neojelll/surl?style=flat">
+	<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/neojelll/surl?style=social">
+</p>
+
+## Description
 
 A SURL is a handy tool, long long hair, complex URLs in short places, easy to remember links. Ideal for routing traffic on your social media pages, email campaigns and websites. Simplify your links and track their performance in one place!
+
+## Project Focus
+
+...
 
 ## Use Cases
 
