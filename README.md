@@ -1,5 +1,9 @@
 # SURL
 
+<p align="center">
+  <a href="https://github.com/neojelll/surl" target="_blank"><img src="readme/surl-logo.png" width="250" alt="surl logo" /></a>
+</p>
+
 ![GitHub Release](https://img.shields.io/github/v/release/neojelll/url-shortener?include_prereleases&display_name=release&style=flat-square)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/neojelll/url-shortener/.github%2Fworkflows%2Fpublish.yml?style=flat-square)
 ![Static Badge](https://img.shields.io/badge/coverage-unknow-white?style=flat-square)
