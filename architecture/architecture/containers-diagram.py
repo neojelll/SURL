@@ -4,7 +4,6 @@ from diagrams.c4 import (
     Container,
     Relationship,
     SystemBoundary,
-    System,
     Database,
 )
 
