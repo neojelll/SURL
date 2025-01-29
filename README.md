@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/neojelll/surl" target="_blank"><img src="readme/surl-logo.png" width="250" alt="surl logo" /></a>
+  <a href="https://github.com/neojelll/surl" target="_blank"><img src="docs/images/surl-logo.png" width="250" alt="surl logo" /></a>
 </p>
 
 <p align="center">
