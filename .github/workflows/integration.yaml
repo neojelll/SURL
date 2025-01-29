@@ -5,8 +5,6 @@ on:
     branches:
       - '**'
       - '!main' 
-    paths:
-      - '*/pyproject.toml'
 
 jobs:
   check_pyproject:
