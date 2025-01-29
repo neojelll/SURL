@@ -33,7 +33,7 @@ with Diagram(filename=FILE_PATH, show=False, direction='TB', graph_attr=GRAPH_AT
         )
 
         broker = Container(
-            name='Message Broker',
+            name='Message Queue',
             technology='Kafka',
             description='Handles event routing and delivery\nProcesses URL generation requests',
         )
