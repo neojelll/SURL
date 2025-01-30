@@ -6,7 +6,7 @@ on:
       - '**'
       - '!main'
     paths:
-      - architecture/architecture/c4-model.py
+      - architecture/architecture/*
 
 jobs:
   diagram:
@@ -39,14 +39,15 @@ jobs:
 
       - name: Update diagram
         run: |
-          poetry run python architecture/c4-model.py
+          poetry run python architecture/system-context-diagram.py
+          poetry run python architecture/containers-diagram.py
         working-directory: architecture
       
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add architecture/diagrams/container-diagram.png
+          git add architecture/diagrams/*
           git commit -m "Update diagram" || echo "No changes to commit"
           git push
         env:
