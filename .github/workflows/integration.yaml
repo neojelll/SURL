@@ -20,7 +20,7 @@ jobs:
 
       - name: Check directory name
         run: |
-          DIRECTORY=$(git log -1 --name-only --pretty=format: | awk -F'/' '{OFS="/"; print \$1,\$2}' | sort -u | head -n 1)
+          DIRECTORY=$(git log -1 --name-only --pretty=format: | awk -F'/' '{OFS="/"; print $1,$2}' | sort -u | head -n 1)
           echo "DIRECTORY=${DIRECTORY}" >> $GITHUB_ENV
 
       - name: Check pyproject.toml in directory
