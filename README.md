@@ -15,41 +15,30 @@
 	<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/neojelll/surl?style=social">
 </p>
 
-## Description
+# Description
 
-A SURL is a handy tool, long long hair, complex URLs in short places, easy to remember links. Ideal for routing traffic on your social media pages, email campaigns and websites. Simplify your links and track their performance in one place!
+**SURL** is a modern and user-friendly tool designed to transform long and complex URLs into compact, easily memorable links. It is perfectly suited for directing traffic to your pages on social media, in email campaigns, and across websites. Simplify your links and track their effectiveness all in one place!
 
-## Project Focus
+# Project Focus
 
-- Make the process of link shortening as simple as possible and user-friendly
+- **User Convenience:** To streamline the link shortening process, making it as simple and intuitive as possible for all users.
 
-- Provide data analytics via a shortened link
+- **Analytics and Tracking:** To provide powerful tools for analyzing the performance of shortened links, enabling users to monitor clicks and engagement with their content.
 
-## Use Cases
+# Advantages of UrlShortener
 
-### General
+- **Link Simplification:** Shortened links take up less space and are easier to remember, making them ideal for social media posts and other platforms.
 
-- A user submits a request with a link that he wants to shorten using cURL
+- **Link Expiration:** The ability to set expiration times for each shortened link adds flexibility and control over link management.
 
-  Parameter|Default value|Description
-  -|-|-
-  expiration | 1 day | link validity time
-  prefix | empty string | link prefix
+- **Comprehensive Reporting:** Access to detailed click analytics, including user geography and traffic sources, helps evaluate the effectiveness of marketing campaigns.
 
-- In response he receives a short link
-- When using a short link, it will be redirected to the original one
-- If the link has expired, the user will receive a static page in response with information that the link did not exist or is no longer valid
+# Architecture
 
-### WebUI
+- [System Context Diagram](architecture/diagrams/system-context-diagram.png)
 
-All the same as described in General, using SPA (Single Page Application) WebUI
+- [Containers Diagram](architecture/diagrams/container-diagram.png)
 
-### Telegram
+# License
 
-All the same as described in General, using a bot in Telegram
-
-## Architecture
-
-### Containers Diagram
-
-![Container](architecture/diagrams/container-diagram.png)
+SURL is [MIT licensed](LICENSE).
