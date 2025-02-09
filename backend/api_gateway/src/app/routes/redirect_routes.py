@@ -1,4 +1,4 @@
-from api.repositories.broker_repository import BrokerConsumer, BrokerProducer
+from src.app.repositories.broker_repository import BrokerConsumer, BrokerProducer
 from dotenv import load_dotenv
 from fastapi import APIRouter, HTTPException, status
 from fastapi.responses import RedirectResponse
