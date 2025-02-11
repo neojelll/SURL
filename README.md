@@ -39,6 +39,10 @@
 
 - [Containers Diagram](architecture/diagrams/container-diagram.png)
 
+# Contributing to the Project
+
+...
+
 # License
 
 SURL is [MIT licensed](LICENSE).
